@@ -1,0 +1,25 @@
+### TEST GET / WEBSITE
+GET http://localhost:8383
+
+
+### TEST GET dashboard WEBSITE
+GET http://localhost:8383/dashboard
+
+
+### TEST GET for API data
+GET http://localhost:8383/api/data
+
+
+### TEST POST for API data
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name": "Godwins",
+    "name": "veldone"
+}
+
+
+### TEST DELETE for API data
+
+DELETE http://localhost:8383/api/delete
