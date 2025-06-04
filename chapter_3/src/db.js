@@ -10,12 +10,12 @@ db.exec(`
         CREATE TABLE users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT UNIQUE,
-            Password TEXT
+            password TEXT
         )    
     `)
 
 db.exec(`
-        CREATE TABLE todo (
+        CREATE TABLE todos (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_id INTEGER,
             task TEXT,
